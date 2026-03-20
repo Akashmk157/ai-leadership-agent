@@ -48,6 +48,7 @@ All answers are generated strictly based on these documents.
 
 ## Architecture
 
+```text
 Company Documents
         ↓
 Document Ingestion
@@ -63,34 +64,22 @@ Retriever (Top-K search)
 LLM (LLaMA 3.1 via Groq)
         ↓
 Structured Leadership Answer
-
+```
 ---
 
 ## Design Decisions
 
-- Chunk Size = 500, Overlap = 100
+- Chunk Size = 500, Overlap = 100 : Preserves context across chunk boundaries
 
-Preserves context across chunk boundaries
+- FAISS : Efficient similarity search
 
-- FAISS
+- MiniLM Embeddings : Lightweight and fast
 
-Efficient similarity search
+- Top-K = 3 : Reduces noise and improves relevance
 
-- MiniLM Embeddings
+- Prompt Engineering : Ensures structured and grounded output
 
-Lightweight and fast
-
-- Top-K = 3
-
-Reduces noise and improves relevance
-
-- Prompt Engineering
-
-Ensures structured and grounded output
-
-- Duplicate Removal
-
-Improves answer quality
+- Duplicate Removal : Improves answer quality
 
 ---
 
@@ -123,7 +112,7 @@ For a query:
 
 
 ## Sample Outputs
-Revenue Trend
+### 1) Revenue Trend
 Summary:
 Revenue increased by 12% in Q1 and 8% in Q2, showing continued but slowing growth.
 
@@ -131,7 +120,7 @@ Insight:
 Strong performance observed in APAC region.
 
 
-Underperforming Departments
+### 2) Underperforming Departments
 Summary:
 Logistics and Customer Support are underperforming.
 
@@ -148,12 +137,20 @@ Strong Performing Departments:
 
 
 
-Key Risks (Last Quarter)
+### 3) Key Risks (Last Quarter)
 Key Risks (Last Quarter - Q2):
 
 - Infrastructure costs rising  
 - Attrition in support teams
 
+---
+# Screen shots of working system
+<img width="1911" height="900" alt="Screenshot 2026-03-20 053011" src="https://github.com/user-attachments/assets/f5f1c63f-56cd-42b7-b452-a926bb2d4732" />
+<img width="1915" height="888" alt="Screenshot 2026-03-20 054229" src="https://github.com/user-attachments/assets/9d72535d-157b-4325-8cf6-5f9e0865033a" />
+<img width="1910" height="912" alt="Screenshot 2026-03-20 054309" src="https://github.com/user-attachments/assets/361efc69-55a7-49ec-9215-065e72b2a26d" />
+<img width="1915" height="863" alt="Screenshot 2026-03-20 054429" src="https://github.com/user-attachments/assets/924decc9-490d-4ccf-9422-63cf1705e17a" />
+
+---
 
 ## Evaluation Approach
 
