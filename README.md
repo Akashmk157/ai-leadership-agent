@@ -13,7 +13,7 @@ This project implements an AI-powered Leadership Insight Agent that can:
 
     - Key risks 
 
-- Generate concise, structured, and fact-based answers
+- Generate concise, structured, and fact-based leadership insights grounded in documents
 
 The system is built using a Retrieval-Augmented Generation (RAG) pipeline.
 
@@ -39,7 +39,7 @@ Since no dataset was provided, I created a synthetic dataset simulating real ent
 
 - Operational updates
 
- - Strategy notes
+- Annual reports
 
 All answers are generated strictly based on these documents.
 
@@ -199,3 +199,26 @@ FAISS
 Groq (LLaMA 3.1)
 
 LangChain (text splitting)
+
+---
+
+## Future Enhancement: Autonomous Decision Agent
+
+The current system focuses on answering factual leadership queries using a RAG pipeline.
+
+It can be extended into an autonomous decision-making system with:
+
+- Multi-step reasoning to handle complex strategic queries  
+- Cross-document analysis to identify trends and risks  
+- Decision generation with actionable insights  
+
+### Example:
+
+**Query:** What should leadership prioritize?
+
+**Output:**
+- Improve logistics efficiency to reduce delays  
+- Expand customer support to handle increased demand  
+- Optimize infrastructure costs  
+
+This evolution transforms the system from a Q&A assistant into a strategic AI advisor.
