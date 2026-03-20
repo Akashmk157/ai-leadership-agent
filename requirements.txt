@@ -1,0 +1,9 @@
+numpy
+sentence-transformers
+faiss-cpu
+transformers
+torch
+langchain
+pypdf
+langchain-text-splitters
+groq

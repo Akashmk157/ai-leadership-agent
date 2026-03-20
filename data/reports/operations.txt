@@ -1,0 +1,48 @@
+Operations Update 2025
+
+Overview:
+The operations team focused on improving efficiency, delivery timelines, and customer experience during the year.
+While some departments performed well, others faced challenges due to increased demand and operational constraints.
+
+Department Performance Summary:
+- Engineering: Maintained strong performance with timely releases and improved system stability
+- Marketing: Continued to perform well with effective campaigns and customer acquisition growth
+- Logistics: Underperforming due to delays in delivery and supply chain inefficiencies
+- Customer Support: Underperforming due to high ticket volume and slower response times
+
+Logistics Performance:
+The logistics department experienced significant delays in product delivery.
+Supply chain disruptions and vendor inefficiencies impacted overall performance.
+Delivery timelines were not consistently met, affecting customer satisfaction.
+
+Customer Support Performance:
+Customer support teams faced a surge in customer queries due to increased user base.
+Response times increased, and resolution efficiency dropped.
+Customer satisfaction scores declined due to slower support.
+
+Engineering Highlights:
+Engineering successfully delivered multiple product updates and improved infrastructure scalability.
+System uptime and performance metrics remained high.
+
+Marketing Highlights:
+Marketing campaigns led to a significant increase in customer acquisition.
+New digital campaigns performed well across multiple regions.
+
+Operational Challenges:
+- Supply chain disruptions affecting logistics
+- Increased demand putting pressure on customer support teams
+- Coordination gaps between logistics and support teams
+
+Key Issues Identified:
+- Inefficient logistics processes
+- Lack of automation in supply chain management
+- Insufficient staffing in customer support
+
+Improvements Initiated:
+- Exploring new logistics partners to improve delivery timelines
+- Hiring additional support staff to reduce response time
+- Implementing process automation in operations
+
+Conclusion:
+While Engineering and Marketing continue to perform strongly, Logistics and Customer Support remain key areas of concern.
+Improving operational efficiency and customer experience will be critical for future growth.
